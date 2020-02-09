@@ -79,8 +79,8 @@ def main(argv):
     except :
         print('''
         arc2png.py [-e <inputfile>] [-c <iutputfile>]
-        -e convert .arc to .png
-        -c extract .arc in cp932
+        -c convert .arc to .png
+        -e extract .arc in cp932
         ''')
         sys.exit(2)
     for opt, arg in opts:
